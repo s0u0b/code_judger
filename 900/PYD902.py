@@ -1,0 +1,5 @@
+f = open("read.txt")
+nums = f.readline()
+f.close()
+nums = list(map(int, nums.split()))
+print(sum(nums))
